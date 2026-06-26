@@ -8,8 +8,8 @@ st.title("Know Your Cure")
 n2 = st.selectbox("which product do u want" , ["Face wash" , "Toner"])
 if st.button("Identify Cure"):
 
-    if( n1 == ["oily"] and n2 == ["Face wash"]  ):
-        str.write("""Oily & Acne-Prone Skin:
+    if( n1 == "oily" and n2 == "Face wash"  ):
+        st.write("""Oily & Acne-Prone Skin:
  *Face Wash* -
 1. The Derma Co 1% Salicylic Acid Gel Face Wash
 2. Minimalist 2% Salicylic Acid Cleanser
