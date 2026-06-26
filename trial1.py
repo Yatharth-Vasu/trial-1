@@ -4,11 +4,11 @@ st.title("Know Your Cure")
 st.image("https://raw.githubusercontent.com/Yatharth-Vasu/trial-1/main/webapp.png.png" , width = 150)
 n1 = st.selectbox(
     "Choose your skin type",
-    ["Oily", "Dry", "Combination"]
+    ["Oily"]
 )
 
 
-n2 = st.selectbox("which product do u want" , ["Face wash" , "Toner"])
+n2 = st.selectbox("which product do u want" , ["Face wash"])
 if st.button("Identify Cure"):
 
     if( n1 == "Oily" and n2 == "Face wash"  ):
