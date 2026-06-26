@@ -1,9 +1,11 @@
 import streamlit as st
+st.title("Know Your Cure")
+st.image("webapp.png")
 n1 = st.selectbox(
     "Choose your skin type",
     ["Oily", "Dry", "Combination"]
 )
-st.title("Know Your Cure")
+
 
 n2 = st.selectbox("which product do u want" , ["Face wash" , "Toner"])
 if st.button("Identify Cure"):
