@@ -14,7 +14,7 @@ if st.button("Identify Cure"):
     if( n1 == "Oily" and n2 == "Face wash"  ):
         st.write("""Oily & Acne-Prone Skin:
  *Face Wash* -
-1. The Derma Co 1% Salicylic Acid Gel Face Wash
+1. The Derma Co 1% Salicylic Acid Gel Face Wash : https://thedermaco.com/product/1-salicylic-acid-gel-face-wash-the-dermaco-100ml/?utm_source=chatgpt.com
 2. Minimalist 2% Salicylic Acid Cleanser
 3. Chemist At Play Oil & Acne Control Face Wash
  *Toner* -
