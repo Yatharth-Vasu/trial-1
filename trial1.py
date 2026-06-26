@@ -14,23 +14,8 @@ if st.button("Identify Cure"):
     if( n1 == "Oily" and n2 == "Face wash"  ):
         st.write("""Oily & Acne-Prone Skin:
  *Face Wash* -
-1. The Derma Co 1% Salicylic Acid Gel Face Wash : https://thedermaco.com/product/1-salicylic-acid-gel-face-wash-the-dermaco-100ml/?utm_source=chatgpt.com
-2. Minimalist 2% Salicylic Acid Cleanser
-3. Chemist At Play Oil & Acne Control Face Wash
- *Toner* -
-1. The Derma Co Pore Minimizing Toner
-2. COSRX AHA/BHA Clarifying Treatment Toner
-3. Dot & Key Rice Water Toner
- *Serum* -
-1. Minimalist Niacinamide 5% Serum
-2. The Ordinary Niacinamide 10% + Zinc 1%
-3. The Derma Co Niacinamide Serum
- *Moisturizer* -
-1. Pond's Super Light Gel
-2. Minimalist Vitamin B5 10% Moisturizer
-3. Re'equil Oil Free Moisturiser
- *Sunscreen* -
-1. Deconstruct Gel Sunscreen SPF 55
-2. Fixderma Shadow SPF 50+ Gel
-3. Beauty of Joseon Relief Sun SPF 50+""")
-    
+ 
+1. The Derma Co 1% Salicylic Acid Gel Face Wash – https://thedermaco.com/product/1-salicylic-acid-gel-face-wash-the-dermaco-100ml/
+2.Minimalist 2% Salicylic Acid + LHA Cleanser – https://beminimalist.co/products/salicylic-lha-2-cleanser
+3.Chemist At Play Oil & Acne Control Face Wash – https://innovist.com/products/oil-acne-control-face-wash
+
