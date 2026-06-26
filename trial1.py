@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Know Your Cure")
-st.image("webapp.png")
+st.image("https://github.com/Yatharth-Vasu/trial-1/blob/main/webapp.png.png")
 n1 = st.selectbox(
     "Choose your skin type",
     ["Oily", "Dry", "Combination"]
