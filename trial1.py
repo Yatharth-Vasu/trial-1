@@ -1,6 +1,7 @@
 import streamlit as st
-st.title("Know Your Cure")
-st.image("https://github.com/Yatharth-Vasu/trial-1/blob/main/webapp.png.png")
+st.set_page_config(
+    page_title="Know Your Cure",
+    page_icon="💊"
 n1 = st.selectbox(
     "Choose your skin type",
     ["Oily", "Dry", "Combination"]
