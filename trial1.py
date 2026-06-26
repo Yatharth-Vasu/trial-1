@@ -16,6 +16,8 @@ if st.button("Identify Cure"):
  *Face Wash* -
  
 1. The Derma Co 1% Salicylic Acid Gel Face Wash – https://thedermaco.com/product/1-salicylic-acid-gel-face-wash-the-dermaco-100ml/
+
 2.Minimalist 2% Salicylic Acid + LHA Cleanser – https://beminimalist.co/products/salicylic-lha-2-cleanser
+
 3.Chemist At Play Oil & Acne Control Face Wash – https://innovist.com/products/oil-acne-control-face-wash """)
 
