@@ -14,10 +14,10 @@ n1 = st.selectbox(
 
 
 n2 = st.selectbox("which product do u want" , ["🧼Face wash" , "💧Toner" , "🔬Serum" , "☀️Sunscreen" , "🧴Moisturizer"])
-    if st.button("Identify Cure"):
+        if st.button("Identify Cure"):
 
-        if( n1 == "Oily" and n2 == "🧼Face wash"  ):
-            st.write("""🧼Face Wash :
+            if( n1 == "Oily" and n2 == "🧼Face wash"  ):
+                st.write("""🧼Face Wash :
  
 1. The Derma Co 1% Salicylic Acid Gel Face Wash –
  https://thedermaco.com/product/1-salicylic-acid-gel-face-wash-the-dermaco-100ml/
