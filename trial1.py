@@ -9,12 +9,19 @@ import streamlit as st
 st.title("🌟Know Your Cure")
 st.image("https://raw.githubusercontent.com/Yatharth-Vasu/trial-1/main/webapp.png.png" , width = 150)
 product = []
-while st.button('end'):
-    product = st.text_input("Enter product name")
+
+product = st.text_input("Enter product name")
 n3 = []
-n3.append(product)
+if "n3" not in st.session_state:
+    st.session_state.n3 = []
+
+product = st.text_input("Enter product name")
+
 if st.button("Done"):
-   st.write(n3)
+    st.session_state.n3.append(product)
+
+if st.button("End"):
+    st.write(st.session_state.n3)
 
 
 n1 = st.selectbox(
