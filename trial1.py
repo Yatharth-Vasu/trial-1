@@ -2,10 +2,12 @@ import streamlit as st
 
 st.title("🌟Know Your Cure")
 st.image("https://raw.githubusercontent.com/Yatharth-Vasu/trial-1/main/webapp.png.png" , width = 150)
+product = st.text_input("Enter product name")
 n3 = []
-n3.append(input())
+n3.append(product)
 if st.button("Done"):
    print(n3)
+
 
 n1 = st.selectbox(
     "Choose your skin type",
