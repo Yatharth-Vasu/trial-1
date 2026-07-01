@@ -49,18 +49,18 @@ if page == "🛒 Mini Cart":
 else:
 
     st.title("🌟Know Your Cure")
-st.image("https://raw.githubusercontent.com/Yatharth-Vasu/trial-1/main/webapp.png.png" , width = 150)
+    st.image("https://raw.githubusercontent.com/Yatharth-Vasu/trial-1/main/webapp.png.png" , width = 150)
 
 
 
-n1 = st.selectbox(
-    "Choose your skin type",
-    ["Oily" ,  "Dry" , "Normal" , "Combination" , "Sensitive" , "Delusional Korean Glass SKin😂😂😂"]
-)
+    n1 = st.selectbox(
+        "Choose your skin type",
+        ["Oily" ,  "Dry" , "Normal" , "Combination" , "Sensitive" , "Delusional Korean Glass SKin😂😂😂"])
 
 
-n2 = st.selectbox("which product do u want" , ["🧼Face wash" , "💧Toner" , "🔬Serum" , "☀️Sunscreen" , "🧴Moisturizer"])
-if st.button("Identify Cure"):
+
+    n2 = st.selectbox("which product do u want" , ["🧼Face wash" , "💧Toner" , "🔬Serum" , "☀️Sunscreen" , "🧴Moisturizer"])
+    if st.button("Identify Cure"):
 
     if( n1 == "Oily" and n2 == "🧼Face wash"  ):
         st.write("""🧼Face Wash :
