@@ -36,12 +36,16 @@ if page == "🛒 Mini Cart":
 
     st.subheader("Saved Products")
 
-    for item in st.session_state.cart:
+    for i, item in enumerate(st.session_state.cart):
 
         st.write(f"📦 {item['name']}")
         st.write(item["url"])
-        st.divider()
 
+        if st.button(f"❌ Delete {item['name']}", key=f"delete_{i}"):
+            st.session_state.cart.pop(i)
+            st.rerun()
+
+        st.divider()
 else:
 
     st.title("🌟Know Your Cure")
