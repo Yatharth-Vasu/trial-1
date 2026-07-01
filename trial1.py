@@ -12,7 +12,7 @@ product = st.text_input("Enter product name")
 n3 = []
 n3.append(product)
 if st.button("Done"):
-   print(n3)
+   st.write(n3)
 
 
 n1 = st.selectbox(
