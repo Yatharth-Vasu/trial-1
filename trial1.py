@@ -8,6 +8,7 @@ import streamlit as st
 
 st.title("🌟Know Your Cure")
 st.image("https://raw.githubusercontent.com/Yatharth-Vasu/trial-1/main/webapp.png.png" , width = 150)
+product = []
 while st.button('end'):
     product = st.text_input("Enter product name")
 n3 = []
