@@ -5,8 +5,8 @@ st.image("https://raw.githubusercontent.com/Yatharth-Vasu/trial-1/main/webapp.pn
 product = st.text_input("Enter product name")
 n3 = []
 n3.append(product)
-if st.button("Done"):
-   st.write(n3)
+    if st.button("Done"):
+       st.write(n3)
 
 
 n1 = st.selectbox(
