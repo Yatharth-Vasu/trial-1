@@ -6,6 +6,44 @@
     
 import streamlit as st
 
+page = st.sidebar.radio(
+    "Navigation",
+    ["🏠 Know Your Cure", "🛒 Mini Cart"]
+)
+
+if page == "🛒 Mini Cart":
+
+    st.title("🛒 Mini Cart")
+
+    if "cart" not in st.session_state:
+        st.session_state.cart = []
+
+    product_name = st.text_input("Product Name")
+    product_url = st.text_input("Product URL")
+
+    if st.button("Save Product"):
+
+        if product_name and product_url:
+
+            st.session_state.cart.append(
+                {
+                    "name": product_name,
+                    "url": product_url
+                }
+            )
+
+            st.success("Product Saved!")
+
+    st.subheader("Saved Products")
+
+    for item in st.session_state.cart:
+
+        st.write(f"📦 {item['name']}")
+        st.write(item["url"])
+        st.divider()
+
+else:
+
 st.title("🌟Know Your Cure")
 st.image("https://raw.githubusercontent.com/Yatharth-Vasu/trial-1/main/webapp.png.png" , width = 150)
 product = []
